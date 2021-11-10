@@ -1,5 +1,5 @@
 {
-  "contractName": "TodoList",
+  "contractName": "Donar",
   "abi": [
     {
       "constant": true,
@@ -9,22 +9,18 @@
           "type": "uint256"
         }
       ],
-      "name": "tasks",
+      "name": "Donacion",
       "outputs": [
         {
           "name": "id",
           "type": "uint256"
         },
         {
-          "name": "content",
-          "type": "string"
-        },
-        {
-          "name": "completed",
-          "type": "bool"
+          "name": "monto",
+          "type": "uint256"
         }
       ],
-      "payable": false,
+      "payable": ture,
       "stateMutability": "view",
       "type": "function",
       "signature": "0x8d977672"
